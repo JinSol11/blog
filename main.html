@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Main</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<style>
+			*{margin:0;padding:0}
+			.gallery{width:60%;margin:0 auto; padding-top:30px}
+			.gallery a{border: none;}
+			ul{list-style-type:none}
+			.view{overflow:hidden;position:relative;width:800px;height:500px}
+			.view-container{position:absolute;top:0;left:0;width:100%;height:100%}
+			.view-container::after{content:'';display:block;position:relative;clear:both}
+			.view-item{position:relative;float:left;width:100%}
+			.view-item img{display:block;width:100%}
+			.list{position:relative;width:760px;padding:30px 20px}
+			.list li{display:inline-block;width:175px;vertical-align:top}
+			.list li + li{padding-left:10px}
+			.list li a{display:block;position:relative}
+			.list li.selected a{cursor:default}
+			.list li.selected a::after{content:'';display:block;position:absolute;top:0;left:0;width:100%;height:100%;border:2px solid #000;box-sizing:border-box}
+			.list li img{display:block;width:100%}
+
+            
+            
+  
+        </style>
+		 
+	</head>
+	<body>
+		
+
+		<div class="page-wrap">
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html"><span class="icon fa-home"></span></a></li>
+						<li><a href="main.html" class="active"><span class="icon fa-camera-retro"></span></a></li>
+						<li><a href="review.html"><span class="icon fa-file-text-o"></span></a></li>
+					</ul>
+				</nav>
+
+				<body id="top">
+
+					<!-- Banner -->
+				
+						<section id="banner" data-video="images/banner2">
+							<div class="inner">
+								<header>
+									<h1>Beauty Inside</h1>
+									<p>Storpiaceae 
+										Actor Interview and Image Gallery
+									</p>
+									
+								</header>
+								
+							</div>
+						</section>
+
+					
+
+						  	
+						<div id="tab-menu" class="tab-menu">
+								<ul>
+									<li><a href="#" class="selected">The Beauty</a></li>
+									<li><a href="#">Dedicated</a></li>
+									<li><a href="#">Strange</a></li>
+									<li><a href="#">Preciousness</a></li>
+								</ul>
+									</div>
+								<div class="tab-container">
+									<div class="tab-content selected">
+										<img src="./images/main.jpg" width="400">
+										<div class = "textbox">
+											<h1>Hong Yi Soo</h1>
+											<ul>
+											   
+												<li>29살</li><br />
+											  
+												<li>누군가의 필요를 알아내는 세심한 배려를 지녔다. </li>
+											</ul>
+											<p>
+											   
+													그를 만나기 전 그녀는 특별할 것 없는 날들을 보냈다.<br /> 
+													한두 번의 연애를 했고, 그만큼의 이별도 했다.<br />
+													덕분에 서른을 앞둔 스물아홉의 그녀는 세상 모든 연애가<br />
+													별다를 것 없이 닮아있다는 걸 안다. 하지만 그녀 안의 소녀는<br />
+													지금도 여전히 영원을 약속할 용기를 낼 만큼 간절한 사랑이<br>
+													있을거라고 때때로 꿈꾸고 희망한다.
+													박서준의 모습이 된<br> 우진과의 이틀 간의 데이트 후 호감을 갖게 된다. 하지만<br>
+													잠에 들어버려 김상호의 모습으로 변하게 된 우진이 그녀 앞에<br>
+													나타나지 못하게 되면서 한동안 그를 그리워하게 된다.
+											</p>
+										</div>
+									</div>
+									<div class="tab-content">
+										<img src="./images/sub1.jpg" width="400">
+										<div class = "textbox">
+											<h1>Park Woo Jin</h1>
+											<ul>
+											   
+												<li>29살</li><br />
+											  
+												<li>이수에게 다가가는 우진.</li>
+											</ul>
+											<p>
+											   
+												18번째 생일 이후로 자고 일어나면 모습이 바뀌는 남자 "우진".<br>
+												그는 자신에게 걸린 저주인지 병인지 모르는 이 증상에<br>
+												적응하기 위해 매일
+												수많은 안경, 수켤레의 신발, 수가지의<br>
+												옷을 갈아입는다. 우진은 가구를 디자인하고 만들며 인터넷으로<br>
+												판매하며 지낸다. 어느 날 대학을 졸업하고 가구회사를 다니다<br>
+												가구회사에서 우진의 디자인을 모방한 것에 염증을 느낀 상백은<br>
+												우진에게 가구회사를 창업할 것을 권유하고 이에 응한 우진은<br>
+												자신의 경험을 토대로 모든 사람이 맞춤 디자인을 해 편하게<br>
+												쓸 수 있는 가구브랜드 "알렉스(ALX)"를 창업한다. 
+											</p>
+										</div>
+									</div>
+									<div class="tab-content">
+										<img src="./images/sub2.jpg" width="400">
+										<div class = "textbox">
+											<h1>Park Woo Jin</h1>
+											<ul>
+											   
+												<li>29살</li><br />
+											  
+												<li>점점 낯설어지는 우진.</li>
+											</ul>
+											<p>
+											   
+												이수와 연인이 된 우진은 함께 즐거운 시간을 보낸다.<br>
+												하지만 우진의 비밀 때문에 비밀스러운 연애를 할 수 밖에<br>
+												없었던 두 사람은 사회의 곱지 않은 시선에 부딪힌다.<br>
+												매일 사귀는 사람이 바뀐다는 수근거림에 이수는<br>
+												마마스튜디오 파티에서 우진을 정식적으로 소개한다.<br>
+												둘의 사랑이 점점 깊어질 무렵 우진은 이수에게<br>
+												프로포즈를 하기 위해 직접 나무로 만든 반지를 준비한다.<br>
+												하지만 이수는 정신과 병원에 다니며 약을 처방받고<br>
+												잠을 잘 자지 못하는 등 계속 힘든 모습을 보인다.
+							 
+											</p>
+										</div>
+									</div>
+									<div class="tab-content">
+										<img src="./images/sub3.jpg" width="400">
+										<div class = "textbox">
+											<h1>Park Woo Jin</h1>
+											<ul>
+											   
+												<li>29살</li><br />
+											  
+												<li>서로에 대한 소중함을 깨닫게 되는.</li>
+											</ul>
+											<p>
+											   
+												마마스튜디오에서 계속 일하는 이수는 모든 것이<br>
+												우진을 만나기전으로 돌아온 듯 평범한 일상을<br>
+												보내고 있었다. 하지만 우진과의 데이트중 들었던<br>
+												음악소리가 들리자 눈물을 흘리기도 하고 못내 우진을<br>
+												그리워 하고 있었다. 알렉스의 입점 계약 연장을 위해<br>
+												알렉스에 방문한 이수는 차가운 상백의 반응에 씁쓸한<br>
+												미소를 짓고 사라진 우진의 행방을 묻지만 상백은<br>
+												묵묵부답이다. 이수는 돌아가려간 찰나 "Made In Czech"<br>
+												라고 쓰여진 자재를 보고 무언가를 짐작한다. 우진은 일을<br>
+												하던 중 초인종이 울려 나가보니 놀랍게도 이수가 서있었다.
+											</p>
+										</div>
+									</div>
+								</div>
+
+		
+
+						<div id="wrapper2">
+								
+								<div id="content1">
+									 <img src="./images/interview1.jpg" width="500" height="450" alt="interview1">
+									 <div class="interview1">
+										 <h3> "이런 영화, 다시 찍을 수<br /> 있을까요?" </h3>
+										 <p class="text1">
+											배우 한효주가 영화 '뷰티 인사이드'에서 신기한 경험을 했다.
+											총 21명의 배우와 멜로 연기를 했고, 13명의 배우와 키스신을 찍었다.
+											'뷰티 인사이드'는 자고 일어나면 매일 다른 모습으로 변하는 가구 디자이너
+											우진과 그를 사랑하는 여자 이수의 이야기를 그린 판타지 로맨스 영화.
+											남자 주인공 우진 역은 총 123명의 배우가 연기했다.
+											
+											"독특한 설정의 영화라 걱정도 됐지만 동시에 기대도 많이 했어요. 
+											다행히 색다른 분위기의 영화가 잘 나온 것 같아요. 
+											언제 또 이렇게 많은 배우들과 한 작품에서 호흡을 해보겠어요. 
+											두 번 다시 하지 못 할 신기한 경험이었죠."
+										 </p>
+									 </div>
+								</div>
+								<div id="content2">
+									 <img src="./images/interview2.jpg" width="500" height="400" alt="interview2">
+									 <div class="interview2">
+										 <h3> 처음 시나리오를 받았을 때 들었던 생각은.</h3>
+										 <p class="text2">
+											"굉장히 신선하고 독특한 느낌이었다. 그동안 본 적 없는 영화가 탄생하겠구나 라는 생각이 들었다. 한 번도 시도하지 않은 영화라 더 끌리기도 했다. 동시에 걱정도 되고 기대도 됐다. 언제 또 이렇게 많은 배우들과 한 작품에서 호흡을 맞출 수 있을까라는 생각이 들었고,
+											 두 번 다시 하지 못 할 경험이라는 생각에 출연을 결심했다."
+										 </p>
+									 </div>
+								</div>
+						
+					
+						</head>
+						<body>
+
+											
+								<p class="title">Photo gellery</p>
+								<div id="gallery" class="gallery">
+								  <div class="view">
+									  
+									<div class="view-container">
+									  <div class="view-item"><img src="./images/01.jpg"></div>
+									  <div class="view-item"><img src="./images/02.jpg"></div>
+									  <div class="view-item"><img src="./images/03.jpg"></div>
+									  <div class="view-item"><img src="./images/04.jpg"></div>
+									</div>
+								  </div>
+								  <ul class="list"><li class="selected"><a href="#"><img src="./images/01.jpg"></a></li><li><a href="#"><img src="./images/02.jpg"></a></li><li><a href="#"><img src="./images/03.jpg"></a></li><li><a href="#"><img src="./images/04.jpg"></a></li></ul>
+								</div>
+								
+		
+		
+						
+			
+					
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>Jin Sol footer</h2>
+					<p class="footer">Here is the introduction page of Beauty in Side Movie. </p>
+
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<p class="copyright">&copy; Untitled. Design: Jin Sol</a>. Images: <a href="https://unsplash.com/">Unsplash</a>. Videos: <a href="http://coverr.co/">Jin sol</a>.</p>
+					
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="./js/jquery.min.js"></script>
+			<script src="./js/jquery.poptrox.min.js"></script>
+			<script src="./js/jquery.scrolly.min.js"></script>
+			<script src="./js/skel.min.js"></script>
+			<script src="./js/util.js"></script>
+			<script src="./js/main.js"></script>
+			<script src="./js/index.js"></script>
+			<script src="./js/tab.js"></script>
+
+	</body>
+</html>
